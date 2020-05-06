@@ -3,6 +3,7 @@
 function setComments() {
 
   require 'dbh.inc.php';
+  
   if (isset($_GET['login'])) {
     if ($_GET['login'] == "success") {
       if(isset($_POST['General-Discussion-Post-Submit'])) {
