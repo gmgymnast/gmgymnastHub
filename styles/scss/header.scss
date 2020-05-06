@@ -1,0 +1,66 @@
+@mixin borderRadius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+}
+
+@mixin transformTranslate($x, $y) {
+    transform: translate($x, $y);
+    -webkit-transform: translate($x, $y);
+    -moz-transform: translate($x, $y);
+    -ms-transform: translate($x, $y);
+    -o-transform: translate($x, $y);
+}
+
+ul.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-top: 11px;
+    z-index: 1000;
+    -webkit-box-shadow: 0px 0px 6px 0px rgb(100, 100, 100);
+    box-shadow: 0px 0px 6px 0px rgb(100, 100, 100);
+}
+
+div.logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 12px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+li.header {
+    float: left;
+    padding: 0px 3px 0px 3px;
+}
+
+li.header a.header {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    &:hover {
+        background-color: rgb(230, 230, 230);
+        @include borderRadius(5px);
+    }
+}
+
+img {
+    margin-top: -11px;
+    width: 60px;
+}
+
+.LoginFields {
+    float: right;
+}

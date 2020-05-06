@@ -1,0 +1,57 @@
+@mixin borderRadius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+}
+
+@mixin transformTranslate($x, $y) {
+    transform: translate($x, $y);
+    -webkit-transform: translate($x, $y);
+    -moz-transform: translate($x, $y);
+    -ms-transform: translate($x, $y);
+    -o-transform: translate($x, $y);
+}
+
+@mixin sectionCenter() {
+    position: absolute;
+    margin-top: 350px;
+    @include transformTranslate(-50%, -50%);
+    left: 50%;
+    margin-right: -50%;
+    vertical-align: middle;
+    background-color: white;
+    padding-right: 45px;
+}
+
+main.signup {
+    @include sectionCenter();
+}
+
+h1.signup {
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+p.signuperror {
+    padding-bottom: 6px;
+    font-size: 15px;
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: -15px;
+    margin-bottom: -20px;
+}
+
+ul.signup {
+    list-style-type: none;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding-top: 11px;
+}
+
+li.signup {
+    padding-bottom: 6px;
+}

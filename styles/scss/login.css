@@ -1,0 +1,60 @@
+main.login {
+  position: absolute;
+  margin-top: 350px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  left: 50%;
+  margin-right: -50%;
+  vertical-align: middle;
+  background-color: white;
+  padding-right: 45px;
+}
+
+h1.login {
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
+ul.login {
+  list-style-type: none;
+  overflow: hidden;
+  text-transform: uppercase;
+  padding-top: 11px;
+}
+
+li.login {
+  padding-bottom: 6px;
+  font-size: 15px;
+  text-decoration: none;
+  color: royalblue;
+  font-weight: bold;
+}
+
+a.login {
+  padding-bottom: 6px;
+  font-size: 15px;
+  text-decoration: none;
+  color: royalblue;
+  font-weight: bold;
+}
+
+a.login:hover {
+  text-decoration: underline;
+}
+
+p.login {
+  margin-top: 2px;
+  font-size: 15px;
+  text-decoration: none;
+  color: royalblue;
+  font-weight: bold;
+}
+
+li.top {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+/*# sourceMappingURL=login.css.map */

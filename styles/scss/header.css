@@ -1,0 +1,56 @@
+ul.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  text-transform: uppercase;
+  padding-top: 11px;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 0px 6px 0px #646464;
+  box-shadow: 0px 0px 6px 0px #646464;
+}
+
+div.logo {
+  float: left;
+  margin-left: 10px;
+  margin-top: 12px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+li.header {
+  float: left;
+  padding: 0px 3px 0px 3px;
+}
+
+li.header a.header {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+li.header a.header:hover {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+img {
+  margin-top: -11px;
+  width: 60px;
+}
+
+.LoginFields {
+  float: right;
+}
+/*# sourceMappingURL=header.css.map */
